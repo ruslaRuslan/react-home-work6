@@ -28,7 +28,6 @@ const Index = ({ }) => {
             <p>minus: {+claculator - +claculator2}</p>
  
 
-
         </>
     )
 }
