@@ -7,8 +7,8 @@ const Index = ({ }) => {
         <>
             <div>
                 <input type="text" onChange={(e) => { setClaculator(e.target.value) }} /><br />
-                <input type="text" onChange={(e) => { setClaculator2(e.target.value) }} style={{ marginTop: "5px" }} />
-                <br/>
+                <input className="input" type="text" onChange={(e) => { setClaculator2(e.target.value) }}/>
+                <br />
                 <button>click</button>
                 <p>sum: {+claculator + +claculator2}</p>
                 <p>minus: {+claculator - +claculator2}</p>
