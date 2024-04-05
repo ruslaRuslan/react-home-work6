@@ -27,6 +27,7 @@ const Index = ({ }) => {
             <p>sum: {+claculator + +claculator2}</p>
             <p>minus: {+claculator - +claculator2}</p>
             <p>multiply: {+claculator * +claculator2}</p>
+            <p>divide:{+claculator / +claculator2}</p>
 
 
         </>
