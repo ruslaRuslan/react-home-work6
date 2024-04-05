@@ -7,9 +7,11 @@ const Index = ({ }) => {
         <>
             <div>
                 <input type="text" onChange={(e) => { setClaculator(e.target.value) }} /><br />
-                <input className="input" type="text" onChange={(e) => { setClaculator2(e.target.value) }}/>
+                <input className="input" type="text" onChange={(e) => { setClaculator2(e.target.value) }} />
                 <br />
-                <button>click</button>
+                <button onClick={() => {
+                    console.log(`sum: ${+claculator + +claculator2} minus: ${+claculator - +claculator2} multipy: ${+claculator * +claculator2} divide:${+claculator / +claculator2}`)
+                }}>click</button>
                 <p>sum: {+claculator + +claculator2}</p>
                 <p>minus: {+claculator - +claculator2}</p>
                 <p>multiply: {+claculator * +claculator2}</p>
