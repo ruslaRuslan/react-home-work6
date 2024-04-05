@@ -6,7 +6,7 @@ const Index = ({ }) => {
     const [result, setResult] = useState('')
 
 
-    
+
 
 
 
