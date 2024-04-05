@@ -5,6 +5,8 @@ const Index = ({ }) => {
     const [claculator2, setClaculator2] = useState('')
     const [result, setResult] = useState('')
 
+
+
     return (
         <>
 
@@ -27,7 +29,7 @@ const Index = ({ }) => {
             <p>sum: {+claculator + +claculator2}</p>
             <p>minus: {+claculator - +claculator2}</p>
             <p>multiply: {+claculator * +claculator2}</p>
-            <p>divide:{+claculator / +claculator2}</p>
+            <p>divide: {+claculator2 === 0 ? 'cannot divide by 0' : (+claculator / +claculator2)}</p>
 
 
         </>
